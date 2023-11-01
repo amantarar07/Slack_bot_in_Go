@@ -32,7 +32,7 @@ func main() {
 //xapp-1-A0643MS8HS5-6124193798709-34ccae9593ab95f8feddd4812771c4db712fdae42a8aa1d69b3de004624ee5c7
 
 
-option:=slacker.ClientOption(func(cd *slacker.ClientDefaults) {})
+// option:=slacker.ClientOption(func(cd *slacker.ClientDefaults) {})
 
 	bot := slacker.NewClient("xoxb-6120263193222-6139809551649-JELwbo7VfnwJimyzUM30GESC", "xoxe.xoxp-1-Mi0yLTYxMjAyNjMxOTMyMjItNjE0OTg5ODU1Nzc3Ni02MTI3NzUxMzc5OTIyLTYxNTA3NDUwMjI2NzItNGQzMmU4OTY1MDJlNDFlZWZmM2Q2MmQ3NDA1YTg4ZTMxMWU5MGUxMTNjMWViY2MxNTgzNDVhZjI0NDYwYzRmZA")
 	go printCommandEvents(bot.CommandEvents())
